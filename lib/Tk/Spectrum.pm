@@ -8,7 +8,7 @@ use Tk::DialogBox;
 use Tk::Widget;
 use Tk::LabFrame;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 Tk::Widget->Construct ('Spectrum');
 
@@ -661,6 +661,9 @@ You can have virtually as many rows and columns as you need, but keep in mind
 that the dialog window size may grow to accomodate.
 
 =head1 CHANGES
+
+  Version 0.02
+  - Added dependency on Tk and Tk::PNG to Makefile.PL to stop CPAN's nagging
 
   Version 0.01
   - Initial release
